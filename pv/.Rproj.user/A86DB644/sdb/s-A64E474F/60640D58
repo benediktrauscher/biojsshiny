@@ -1,0 +1,16 @@
+{
+    "contents" : "\n# This is the user-interface definition of a Shiny web application.\n# You can find out more about building applications with Shiny here:\n#\n# http://shiny.rstudio.com\n#\n\nlibrary(shiny)\nlibrary(shinyBioPv)\n\nshinyUI(fluidPage(\n\n    # Application title\n    titlePanel(\"ProteinViewer\"),\n    \n    # Show a plot of the generated distribution\n    mainPanel(\n        textInput('pdbcode', 'enter pdb code:'),\n        shinyBioPvOutput(\"pv\")\n    )\n  )\n)\n",
+    "created" : 1436009714835.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3722849114",
+    "id" : "60640D58",
+    "lastKnownWriteTime" : 1436013115,
+    "path" : "~/programming/pv/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

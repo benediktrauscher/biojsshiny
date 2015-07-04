@@ -1,0 +1,16 @@
+{
+    "contents" : "\n# This is the server logic for a Shiny web application.\n# You can find out more about building applications with Shiny here:\n#\n# http://shiny.rstudio.com\n#\n\nlibrary(shiny)\n\nshinyServer(function(input, output) {\n  output$pv <- renderShinyBioPv(\n    shinyBioPv(input$pdbcode)\n  )\n})\n",
+    "created" : 1436009715172.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2522683124",
+    "id" : "64BA3636",
+    "lastKnownWriteTime" : 1436013869,
+    "path" : "~/programming/pv/server.R",
+    "project_path" : "server.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

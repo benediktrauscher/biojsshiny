@@ -1,0 +1,15 @@
+.DS_Store
+/js/bio-pv.min.js
+/js/bio-pv.dbg.js
+/js/bio-pv.rel.js
+js/bio-pv.rel.bro.js
+js/bio-pv.browserify.js
+/bio-pv.min.js
+/bio-pv.js
+/node_modules
+/doc/_build
+build
+*.csf
+*.tgz
+*.pyc
+bower.json
