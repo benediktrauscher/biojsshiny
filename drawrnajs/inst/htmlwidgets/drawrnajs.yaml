@@ -1,0 +1,7 @@
+# (uncomment to add a dependency)
+dependencies:
+ - name: 'drawrnajs'
+   version: '0.3.4'
+   src: htmlwidgets/lib/drawrnajs-0.3.4
+   script: drawrnajs-lib.js
+   stylesheet: style.css
